@@ -266,9 +266,7 @@ display: inline;
         clear: both;
         height: 150px;
         padding: 0;
-        
-        
-    }
+}
     hr {
         display: none;
     }
@@ -306,4 +304,17 @@ display: inline;
     text-align: center;
     padding: 0 20px;
 
+}
+#photos {
+    column-count: 3;
+}
+
+/* For small screen sizes 800px and down */ 
+
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
+}
+    
 }
